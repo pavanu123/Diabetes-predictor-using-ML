@@ -9,7 +9,7 @@ import pandas as pd
 st.set_page_config(page_title="Diabetes Prediction", layout="wide", page_icon="🧑‍⚕️")
 
 # Load the saved diabetes model
-diabetes_model_path = r"C:\Users\punit\OneDrive\Desktop\ML project\diabetes-prediction-model.sav"
+diabetes_model_path = "diabetes-prediction-model.sav"
 diabetes_model = pkl.load(open(diabetes_model_path, 'rb'))
 
 # Page title
@@ -69,7 +69,7 @@ if st.button('Diabetes Test Result'):
  #Accuracy score checking
 if st.button('Check Model Accuracy'):
     
-    test_data = pd.read_csv(r"C:\Users\punit\OneDrive\Desktop\ML project\diabetes.csv")
+    test_data = pd.read_csv("diabetes.csv")
     
     x_test = test_data.drop(columns=["Outcome"])
     y_test = test_data["Outcome"]
