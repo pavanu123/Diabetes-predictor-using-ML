@@ -1,5 +1,5 @@
 
-import pickle
+import pickle as pkl
 import streamlit as st # type: ignore
 from sklearn.metrics import confusion_matrix,accuracy_score,precision_score,recall_score,f1_score,roc_auc_score,roc_curve
 from sklearn.metrics import classification_report
@@ -10,7 +10,7 @@ st.set_page_config(page_title="Diabetes Prediction", layout="wide", page_icon="ð
 
 # Load the saved diabetes model
 diabetes_model_path = r"C:\Users\punit\OneDrive\Desktop\ML project\diabetes-prediction-model.sav"
-diabetes_model = pickle.load(open(diabetes_model_path, 'rb'))
+diabetes_model = pkl.load(open(diabetes_model_path, 'rb'))
 
 # Page title
 st.title('Diabetes Prediction using ML')
