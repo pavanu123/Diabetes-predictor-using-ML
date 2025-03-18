@@ -1,0 +1,35 @@
+{
+  "build": "hd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "prompt-toolkit >=3.0.43,<3.0.44.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\punit\\anaconda3\\pavan\\New folder\\pkgs\\prompt_toolkit-3.0.43-hd3eb1b0_0",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "prompt_toolkit-3.0.43-hd3eb1b0_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\punit\\anaconda3\\pavan\\New folder\\pkgs\\prompt_toolkit-3.0.43-hd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "244c80adf85e37e2a4158d0f0c199566",
+  "name": "prompt_toolkit",
+  "noarch": "generic",
+  "package_tarball_full_path": "C:\\Users\\punit\\anaconda3\\pavan\\New folder\\pkgs\\prompt_toolkit-3.0.43-hd3eb1b0_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "439265c6da23035e121935b6e6cf7d2fd14330120cd87255f165703041fc5004",
+  "size": 5510,
+  "subdir": "noarch",
+  "timestamp": 1704404390000,
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/prompt_toolkit-3.0.43-hd3eb1b0_0.conda",
+  "version": "3.0.43"
+}
